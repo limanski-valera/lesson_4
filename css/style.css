@@ -1,0 +1,96 @@
+/* ================================ Підключення шрифтів =========================================================== */
+/* Larsseit */
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+/* Lato */
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* ================================ Основні стилі =========================================================== */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-weight: 900;
+    font-size: 42px;
+    color: rgb(31, 30, 30);
+}
+.compilation {
+    font-family: 'Lato', sans-serif;
+    color: rgb(149, 54, 54);
+    font-weight: 700;
+    font-size: 24px;
+}
+.text {
+    font-size: 18px;
+}
+.foreword {
+    color: rgb(120, 50, 50);
+}
+.films {
+    color: rgb(37, 11, 62);
+}
+.title {
+    font-weight: 700;
+    font-size: 30px;
+}
+.actors-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+.actors-list {
+    font-weight: 300;
+    color: rgb(110, 57, 160);
+}
+#real {
+    color: rgb(71, 234, 71);
+    font-family: 'Larsseit', sans-serif;
+}
+#real .actors-list {
+    color: greenyellow;
+}
+.up {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+}
